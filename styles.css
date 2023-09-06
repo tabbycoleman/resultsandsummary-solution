@@ -8,11 +8,12 @@
   body #content-box {
     flex-direction: column;
     height: 100%;
+    margin-top: 0;
   }
 
   body #score-circle {
-    width: 35%;
-    min-height: 30%;
+    width: 26%;
+    min-height: 35%;
   }
 
   body #result-box {
@@ -40,20 +41,20 @@
   }
 
   body .reaction-text {
-    padding-right: 115px;
+    padding-right: 210px;
   }
 
   body .memory-text {
-    padding-right: 115px;
+    padding-right: 210px;
   }
 
   body .verbal-text {
-    padding-right: 130px;
+    padding-right: 225px;
   }
 
   body .visual-text {
     color: #2f357c;
-    padding-right: 130px;
+    padding-right: 225px;
   }
 
   .summary {
