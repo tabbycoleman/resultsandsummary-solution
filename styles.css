@@ -12,8 +12,8 @@
   }
 
   body #score-circle {
-    width: 26%;
-    min-height: 35%;
+    width: 30%;
+    height: 40%;
   }
 
   body #result-box {
