@@ -4,7 +4,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 412px) {
   body #content-box {
     flex-direction: column;
     height: 100%;
