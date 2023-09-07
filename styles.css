@@ -1,4 +1,4 @@
-@media (min-width: 900px) {
+@media (min-width: 955px) {
   #content-box {
     max-width: 50%;
   }
@@ -12,8 +12,8 @@
   }
 
   body #score-circle {
-    width: 26%;
-    min-height: 35%;
+    width: 120px;
+    height: 120px;
   }
 
   body #result-box {
@@ -40,21 +40,27 @@
     margin-bottom: 15px;
   }
 
+  body #reaction,
+  body #memory,
+  body #visual,
+  body #verbal {
+    width: 90%;
+  }
+
   body .reaction-text {
-    padding-right: 50%;
+    flex-grow: 1;
   }
 
   body .memory-text {
-    padding-right: 50%;
+    flex-grow: 1;
   }
 
   body .verbal-text {
-    padding-right: 53.5%;
+    flex-grow: 1;
   }
 
   body .visual-text {
-    color: #2f357c;
-    padding-right: 53.5%;
+    flex-grow: 1;
   }
 
   .summary {
@@ -124,9 +130,10 @@ body {
   margin: 0 auto;
   justify-content: center;
   background: linear-gradient(#4a23cc, #4734ee);
-  height: 35%;
-  width: 45%;
+  height: 120px;
+  width: 120px;
   border-radius: 100%;
+  padding-bottom: 1px;
 }
 
 #result-subtext {
@@ -161,6 +168,7 @@ body {
   border-radius: 10px;
   padding: 15px;
   display: flex;
+  width: 17vw;
 }
 
 .reaction-text,
@@ -168,6 +176,7 @@ body {
 .visual-text,
 .verbal-text {
   font-weight: bold;
+  flex-grow: 1;
 }
 
 #reaction {
@@ -176,7 +185,6 @@ body {
 
 .reaction-text {
   color: #f56a74;
-  padding-right: 50px;
 }
 
 #memory {
@@ -185,7 +193,6 @@ body {
 
 .memory-text {
   color: #fdca54;
-  padding-right: 50px;
 }
 
 #visual {
@@ -194,7 +201,6 @@ body {
 
 .visual-text {
   color: #2f357c;
-  padding-right: 65px;
 }
 
 #verbal {
@@ -203,7 +209,6 @@ body {
 
 .verbal-text {
   color: #47a18d;
-  padding-right: 65px;
 }
 
 .continue-button {
